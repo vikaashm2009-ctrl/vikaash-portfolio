@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vikaash M — Curious by nature. Building the foundation.</title>
+<meta name="description" content="Vikaash M — first-year Integrated CSE student at SRMIST exploring code, AI, and open source. Portfolio and journey log.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__mark" aria-label="Back to top">VM<span class="nav__mark-dot">.</span></a>
+
+  <nav class="nav__links" aria-label="Section navigation">
+    <a href="#origin"    data-nav="origin">Origin</a>
+    <a href="#curiosity" data-nav="curiosity">Curiosity</a>
+    <a href="#foundation" data-nav="foundation">Foundation</a>
+    <a href="#exposure"  data-nav="exposure">Exposure</a>
+    <a href="#lab"       data-nav="lab">The Lab</a>
+    <a href="#next"      data-nav="next">Contact</a>
+  </nav>
+
+  <div class="nav__status" aria-hidden="true">
+    <span class="nav__status-dot"></span>
+    Exploring
+  </div>
+
+  <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- mobile menu panel -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#origin">01 — Origin</a>
+  <a href="#curiosity">02 — Curiosity</a>
+  <a href="#foundation">03 — Foundation</a>
+  <a href="#exposure">04 — Exposure</a>
+  <a href="#lab">05 — The Lab</a>
+  <a href="#next">06 — Contact</a>
+</div>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <canvas class="hero__grid" id="heroGrid" aria-hidden="true"></canvas>
+  <div class="hero__ring" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <p class="hero__meta reveal" data-reveal="1">SRMIST&nbsp;&nbsp;/&nbsp;&nbsp;Integrated CSE&nbsp;&nbsp;/&nbsp;&nbsp;Year 01</p>
+
+    <h1 class="hero__name">
+      <span class="reveal-line" data-reveal="2"><span>VIKAASH</span></span>
+      <span class="reveal-line" data-reveal="3"><span>M</span></span>
+    </h1>
+
+    <p class="hero__tagline reveal" data-reveal="4">
+      Curious by nature. Competitive by choice.<br class="br-desktop"> Building what's next.
+    </p>
+
+    <p class="hero__sub reveal" data-reveal="5">
+      A first-year Integrated CSE student in Bangalore, poking at code, AI,
+      and the open-source world to see how it all fits together.
+    </p>
+
+    <div class="hero__actions reveal" data-reveal="6">
+      <a href="#origin" class="btn btn--primary">Start the story</a>
+      <a href="#next" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero__portrait reveal" data-reveal="4">
+    <div class="portrait-frame">
+      <img src="assets/profile.jpg" alt="Portrait of Vikaash M" class="portrait-frame__img" id="profileImg"
+           onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';">
+      <div class="portrait-frame__corner portrait-frame__corner--tl"></div>
+      <div class="portrait-frame__corner portrait-frame__corner--br"></div>
+      <div class="portrait-frame__scan"></div>
+      <div class="portrait-frame__tag">VM // 01</div>
+    </div>
+  </div>
+
+  <a href="#origin" class="hero__scroll" aria-label="Scroll to next section">
+    <span>Scroll</span>
+    <span class="hero__scroll-line"></span>
+  </a>
+</section>
+
+<!-- ================= CHAPTER 01 — ORIGIN ================= -->
+<section class="section" id="origin">
+  <div class="section__head reveal-up">
+    <span class="section__num">01</span>
+    <h2 class="section__title">The Beginning</h2>
+  </div>
+
+  <div class="origin__grid">
+    <p class="origin__lead reveal-up">
+      Vikaash chose Computer Science for one reason — he wanted to know how an
+      idea turns into something real. A thought becomes a line of code, a line
+      of code becomes a system, and a system becomes something people actually use.
+      That gap between imagination and execution is what pulled him in.
+    </p>
+
+    <div class="origin__body reveal-up">
+      <p>
+        He's still figuring out exactly where he wants to specialise — and he's
+        comfortable saying that out loud. Right now, the plan isn't to have all
+        the answers. It's to explore widely, build small things often, and let
+        curiosity point the direction.
+      </p>
+      <p>
+        No major shipped products. No hackathon trophies yet. What he does have
+        is a habit of pulling things apart to see how they work, and the patience
+        to sit with a problem until it clicks.
+      </p>
+      <p class="origin__status">
+        <span class="origin__status-label">Current status</span>
+        Currently exploring. Currently learning. Currently building the foundation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 02 — CURIOSITY ================= -->
+<section class="section section--dark" id="curiosity">
+  <div class="section__head reveal-up">
+    <span class="section__num">02</span>
+    <h2 class="section__title">The Curiosity</h2>
+  </div>
+
+  <p class="section__intro reveal-up">
+    Outside of coursework, this is what keeps Vikaash's attention —
+    a mix of technical rabbit holes and quieter interests.
+  </p>
+
+  <div class="interest-grid">
+    <article class="interest-card reveal-up">
+      <h3>Gaming</h3>
+      <p>Competitive by instinct — drawn to games with systems worth mastering, not just winning once.</p>
+    </article>
+    <article class="interest-card reveal-up">
+      <h3>Anime</h3>
+      <p>Long-time fan of character-driven storytelling and quiet, calculated characters — Itachi especially.</p>
+    </article>
+    <article class="interest-card reveal-up">
+      <h3>Photography</h3>
+      <p>Learning to notice light and framing — a different kind of attention to detail.</p>
+    </article>
+    <article class="interest-card reveal-up">
+      <h3>Research &amp; tinkering</h3>
+      <p>Enjoys reading how things are actually built — architectures, protocols, design decisions.</p>
+    </article>
+    <article class="interest-card reveal-up">
+      <h3>Open source</h3>
+      <p>Early days of exploring repos and communities, understanding how collaborative software gets made.</p>
+    </article>
+    <article class="interest-card reveal-up">
+      <h3>Creative web design</h3>
+      <p>Fascinated by how motion, type, and layout can turn information into an experience.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 03 — FOUNDATION ================= -->
+<section class="section" id="foundation">
+  <div class="section__head reveal-up">
+    <span class="section__num">03</span>
+    <h2 class="section__title">The Foundation</h2>
+  </div>
+
+  <p class="section__intro reveal-up">
+    No inflated percentages here — just an honest map of where things stand today.
+  </p>
+
+  <div class="stack">
+    <div class="stack__group reveal-up">
+      <h3 class="stack__label"><span class="dot dot--green"></span>Building foundations</h3>
+      <div class="stack__pills">
+        <span class="pill">C</span>
+        <span class="pill">Python fundamentals</span>
+        <span class="pill">HTML</span>
+        <span class="pill">CSS</span>
+      </div>
+    </div>
+
+    <div class="stack__group reveal-up">
+      <h3 class="stack__label"><span class="dot dot--orange"></span>Currently learning</h3>
+      <div class="stack__pills">
+        <span class="pill">JavaScript</span>
+        <span class="pill">Git &amp; GitHub</span>
+        <span class="pill">Web development</span>
+      </div>
+    </div>
+
+    <div class="stack__group reveal-up">
+      <h3 class="stack__label"><span class="dot dot--outline"></span>Exploring</h3>
+      <div class="stack__pills">
+        <span class="pill">AI / Machine Learning</span>
+        <span class="pill">Open source</span>
+        <span class="pill">UI/UX &amp; creative web design</span>
+      </div>
+    </div>
+
+    <div class="stack__group reveal-up">
+      <h3 class="stack__label"><span class="dot dot--muted"></span>Interested in</h3>
+      <div class="stack__pills">
+        <span class="pill">Artificial intelligence</span>
+        <span class="pill">Technology research</span>
+        <span class="pill">Digital experiences</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 04 — EXPOSURE ================= -->
+<section class="section section--dark" id="exposure">
+  <div class="section__head reveal-up">
+    <span class="section__num">04</span>
+    <h2 class="section__title">The Exposure</h2>
+  </div>
+
+  <div class="checkpoint reveal-up">
+    <div class="checkpoint__line" aria-hidden="true"></div>
+    <div class="checkpoint__marker" aria-hidden="true"></div>
+    <div class="checkpoint__content">
+      <span class="checkpoint__tag">FOSS Club, SRM</span>
+      <h3 class="checkpoint__title">"Mainframe Meets Open Source"</h3>
+      <p class="checkpoint__meta">Speaker — Senthil Nathan, Head of Product &amp; DevOps at IBM</p>
+      <p class="checkpoint__body">
+        An early checkpoint in the journey — a session on where legacy mainframe
+        systems intersect with modern open-source tooling. Not professional
+        experience, just one of the first real windows into how large-scale
+        systems actually get built and maintained in the industry.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 05 — THE LAB ================= -->
+<section class="section" id="lab">
+  <div class="section__head reveal-up">
+    <span class="section__num">05</span>
+    <h2 class="section__title">The Lab</h2>
+  </div>
+
+  <p class="section__intro reveal-up">
+    Nothing shipped yet — these are directions Vikaash is actively circling,
+    not finished projects. Labelled honestly as what they are: ideas.
+  </p>
+
+  <div class="lab-grid">
+    <article class="lab-card reveal-up">
+      <span class="lab-card__num">01</span>
+      <h3>AI × Everyday Life</h3>
+      <p>Exploring small, practical ways machine learning could quietly improve an everyday task — nothing grand, just useful.</p>
+      <span class="lab-card__status">Future exploration</span>
+    </article>
+    <article class="lab-card reveal-up">
+      <span class="lab-card__num">02</span>
+      <h3>Interactive Web Experience</h3>
+      <p>Wants to build a small site that leans fully into motion and storytelling — closer to this portfolio than a form-and-button app.</p>
+      <span class="lab-card__status">Future exploration</span>
+    </article>
+    <article class="lab-card reveal-up">
+      <span class="lab-card__num">03</span>
+      <h3>Something Worth Open-Sourcing</h3>
+      <p>Looking for a problem small enough to finish and useful enough that someone else would actually want to use it.</p>
+      <span class="lab-card__status">Future exploration</span>
+    </article>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 06 — NEXT / CONTACT ================= -->
+<section class="section section--next" id="next">
+  <div class="section__head reveal-up">
+    <span class="section__num">06</span>
+    <h2 class="section__title">What's Next</h2>
+  </div>
+
+  <p class="next__lead reveal-up">
+    Still early. Still building. Always open to a conversation about
+    technology, ideas, or the next thing worth exploring.
+  </p>
+
+  <div class="next__links reveal-up">
+    <a href="mailto:vikaashm2009@gmail.com" class="contact-link">
+      <span class="contact-link__label">Email</span>
+      <span class="contact-link__value">vikaashm2009@gmail.com</span>
+    </a>
+    <a href="https://github.com/vikaashm2009-ctrl" target="_blank" rel="noopener noreferrer" class="contact-link">
+      <span class="contact-link__label">GitHub</span>
+      <span class="contact-link__value">vikaashm2009-ctrl</span>
+    </a>
+    <a href="https://www.linkedin.com/in/vikaash-m-81887641b" target="_blank" rel="noopener noreferrer" class="contact-link">
+      <span class="contact-link__label">LinkedIn</span>
+      <span class="contact-link__value">vikaash-m</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>Vikaash M — SRMIST, Kattankulathur. Built while learning to build.</p>
+  <p class="footer__year">© <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
